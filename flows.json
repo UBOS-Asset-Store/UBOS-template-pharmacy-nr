@@ -81,7 +81,7 @@
         ],
         "x": 14,
         "y": 519,
-        "w": 922,
+        "w": 932,
         "h": 122
     },
     {
@@ -124,12 +124,19 @@
             "dfd418edb3ce5008",
             "34c4ece32804194c",
             "f12c402739cc5cc5",
-            "56ef4451eea4c134"
+            "56ef4451eea4c134",
+            "68167fb0c6de1465",
+            "810707a142149944",
+            "13aab432329cb39e",
+            "1ad706b9ead34588",
+            "949de8c0b8163b94",
+            "e5e2e21cafe1cffe",
+            "d8b2af9e84dc3341"
         ],
         "x": 14,
-        "y": 1119,
-        "w": 2872,
-        "h": 222
+        "y": 1079,
+        "w": 3012,
+        "h": 322
     },
     {
         "id": "b6caf5a4e7dfa59a",
@@ -307,9 +314,9 @@
             "ae293692fead8475",
             "732470b6749e6a6e"
         ],
-        "x": 754,
+        "x": 744,
         "y": 1419,
-        "w": 792,
+        "w": 802,
         "h": 882
     },
     {
@@ -416,7 +423,9 @@
             "39d23b9302b7a054"
         ],
         "x": 34,
-        "y": 239
+        "y": 239,
+        "w": 1072,
+        "h": 662
     },
     {
         "id": "5fa550d7584c7b05",
@@ -440,7 +449,9 @@
             "2ed006a00e70fa75"
         ],
         "x": 1114,
-        "y": 599
+        "y": 599,
+        "w": 592,
+        "h": 242
     },
     {
         "id": "d98e404f743d8188",
@@ -475,7 +486,9 @@
             "95c4b4199cd73bfd"
         ],
         "x": 34,
-        "y": 939
+        "y": 939,
+        "w": 1372,
+        "h": 262
     },
     {
         "id": "61baa7f31d9fdc66",
@@ -1009,7 +1022,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 120,
-        "y": 1160,
+        "y": 1220,
         "wires": [
             [
                 "ac49e26a2e4afed9"
@@ -1029,7 +1042,7 @@
         "finalize": "",
         "libs": [],
         "x": 420,
-        "y": 1160,
+        "y": 1220,
         "wires": [
             [
                 "37858f362379beaf"
@@ -1048,7 +1061,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 590,
-        "y": 1160,
+        "y": 1220,
         "wires": [
             [
                 "b45fa4b05ae3097b"
@@ -1064,7 +1077,7 @@
         "statusCode": "",
         "headers": {},
         "x": 930,
-        "y": 1160,
+        "y": 1220,
         "wires": []
     },
     {
@@ -1078,7 +1091,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "dfd418edb3ce5008"
@@ -1098,7 +1111,7 @@
         "finalize": "",
         "libs": [],
         "x": 700,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "92b864d9149c6706"
@@ -1117,7 +1130,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 850,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "9166a62c781e59f9"
@@ -1137,7 +1150,7 @@
         "finalize": "",
         "libs": [],
         "x": 1090,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "4b500afe34ff007c"
@@ -1156,7 +1169,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1230,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "71133c44b10f05b7"
@@ -1176,7 +1189,7 @@
         "finalize": "",
         "libs": [],
         "x": 1370,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "b07847cbc2e1fd51"
@@ -1198,7 +1211,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1550,
-        "y": 1200,
+        "y": 1260,
         "wires": [
             [
                 "b028c7ab70a64ae5"
@@ -1218,7 +1231,7 @@
         "finalize": "",
         "libs": [],
         "x": 1780,
-        "y": 1200,
+        "y": 1260,
         "wires": [
             [
                 "63eba3bad933ed26"
@@ -1237,7 +1250,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1910,
-        "y": 1200,
+        "y": 1260,
         "wires": [
             [
                 "fedb611f375d1079"
@@ -1257,7 +1270,7 @@
         "finalize": "",
         "libs": [],
         "x": 2040,
-        "y": 1200,
+        "y": 1260,
         "wires": [
             [
                 "a519048ee5158fac"
@@ -1279,7 +1292,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 2170,
-        "y": 1180,
+        "y": 1240,
         "wires": [
             [
                 "fbd0f09beaddc8ef"
@@ -1299,7 +1312,7 @@
         "finalize": "",
         "libs": [],
         "x": 2360,
-        "y": 1180,
+        "y": 1240,
         "wires": [
             [
                 "da04d3095b0aa551"
@@ -1318,10 +1331,12 @@
         "linkType": "static",
         "timeout": "30",
         "x": 2490,
-        "y": 1180,
+        "y": 1240,
         "wires": [
             [
-                "3c7dade79ffd5799"
+                "3c7dade79ffd5799",
+                "68167fb0c6de1465",
+                "13aab432329cb39e"
             ]
         ]
     },
@@ -1338,7 +1353,7 @@
         "finalize": "",
         "libs": [],
         "x": 2640,
-        "y": 1180,
+        "y": 1240,
         "wires": [
             [
                 "1143c19380a1a7c3"
@@ -1357,7 +1372,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2810,
-        "y": 1160,
+        "y": 1220,
         "wires": []
     },
     {
@@ -1379,7 +1394,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 965,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "8ea4987404bfde5b"
@@ -1406,7 +1421,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1645,
-        "y": 1200,
+        "y": 1260,
         "wires": [
             [
                 "c4e8b3f5af705219"
@@ -1433,7 +1448,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 2265,
-        "y": 1180,
+        "y": 1240,
         "wires": [
             [
                 "276ef34e816f306d"
@@ -1454,7 +1469,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 1160,
+        "y": 1220,
         "wires": [
             [
                 "1237a7e6379518ef"
@@ -1474,7 +1489,7 @@
         "finalize": "",
         "libs": [],
         "x": 400,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "981bafe292c5eec2"
@@ -1493,7 +1508,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 530,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "9d840c0c673872fd"
@@ -1519,7 +1534,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 275,
-        "y": 1220,
+        "y": 1280,
         "wires": [
             [
                 "ca577688a63db6be"
@@ -1546,7 +1561,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 960,
-        "y": 1300,
+        "y": 1360,
         "wires": [
             [
                 "ca577688a63db6be"
@@ -1572,7 +1587,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1560,
-        "y": 1300,
+        "y": 1360,
         "wires": [
             [
                 "9166a62c781e59f9"
@@ -1598,7 +1613,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 2300,
-        "y": 1280,
+        "y": 1340,
         "wires": [
             [
                 "c4e8b3f5af705219"
@@ -4612,7 +4627,8 @@
                 "fda0591bfc9f6d11",
                 "bd7173ef1f76f7dc",
                 "b44facb04465b594",
-                "d2abca3fe9e9cd96"
+                "d2abca3fe9e9cd96",
+                "4703e8881cb2ea66"
             ]
         ]
     },
@@ -4694,6 +4710,191 @@
         "x": 840,
         "y": 3300,
         "wires": []
+    },
+    {
+        "id": "68167fb0c6de1465",
+        "type": "function",
+        "z": "d236e94b5b5e26b5",
+        "g": "b815a218a8d7f47c",
+        "name": "function 571",
+        "func": "msg.collection = \"campaigns\";\nmsg.user = msg.payload;\nmsg.payload = {\n    code: \"PN0001165\",\n    name: \"YourPharmacy\",\n    date: new Date().toISOString(),\n    globalDiscount: \"-35%\",\n    objectif: 70,\n    email: \"YourPharmacy@gmail.com\",\n    phoneNumber: \"+3809736875334\",\n    userId: msg.user[0]._id,\n    createdAt: new Date().toISOString(),\n    deleted: false,\n    published: true,\n    img: \"https://ubos.tech/wp-content/uploads/2023/07/medilane_campaigns-photo-1.png\",\n    participants: [\"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-1.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-2.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-3.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-4.png\"]\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2230,
+        "y": 1120,
+        "wires": [
+            [
+                "810707a142149944"
+            ]
+        ]
+    },
+    {
+        "id": "810707a142149944",
+        "type": "link call",
+        "z": "d236e94b5b5e26b5",
+        "g": "b815a218a8d7f47c",
+        "name": "",
+        "links": [
+            "1764f8568a80ddbd"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2370,
+        "y": 1120,
+        "wires": [
+            [
+                "d8b2af9e84dc3341"
+            ]
+        ]
+    },
+    {
+        "id": "13aab432329cb39e",
+        "type": "debug",
+        "z": "d236e94b5b5e26b5",
+        "g": "b815a218a8d7f47c",
+        "name": "debug 33",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2600,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "4703e8881cb2ea66",
+        "type": "function",
+        "z": "d236e94b5b5e26b5",
+        "name": "function 572",
+        "func": "msg.payload = {};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 3240,
+        "wires": [
+            [
+                "97e91b6dd12250ef"
+            ]
+        ]
+    },
+    {
+        "id": "97e91b6dd12250ef",
+        "type": "mongodb out",
+        "z": "d236e94b5b5e26b5",
+        "mongodb": "61baa7f31d9fdc66",
+        "name": "",
+        "collection": "campaigns",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 850,
+        "y": 3240,
+        "wires": []
+    },
+    {
+        "id": "1ad706b9ead34588",
+        "type": "function",
+        "z": "d236e94b5b5e26b5",
+        "g": "b815a218a8d7f47c",
+        "name": "function 573",
+        "func": "msg.collection = \"products\";\nmsg.fakeCompany = msg.payload;\nmsg.payload = [{\n    name: \"Vitamin C\",\n    cost: 30,\n    dateOfManufacture: \"01.09.2023\",\n    expirationDate: \"01.09.2024\",\n    photo: \"https://ubos.tech/wp-content/uploads/2023/07/medilane_campaigns-photo-1.png\",\n    description: \"Vitamin C, also known as L- ascorbic acid, is a water - soluble vitamin that is naturally present in some foods, added to others, and available as a dietary supplement. \",\n    campaignId: msg.fakeCompany[0]._id,\n    createdAt: new Date().toISOString(),\n    deleted: false,\n},\n    {\n        name: \"Vitamin A\",\n        cost: 10,\n        dateOfManufacture: \"01.02.2023\",\n        expirationDate: \"01.06.2024\",\n        photo: \"https://ubos.tech/wp-content/uploads/2023/07/medilane_campaigns-photo-1.png\",\n        description: \"Vitamin A is the name of a group of fat-soluble retinoids, primarily retinol and retinyl esters. Vitamin A is involved in immune function, cellular communication, growth and development, and male and female reproduction\",\n        campaignId: msg.fakeCompany[0]._id,\n        createdAt: new Date().toISOString(),\n        deleted: false,\n    },\n]\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2790,
+        "y": 1120,
+        "wires": [
+            [
+                "949de8c0b8163b94"
+            ]
+        ]
+    },
+    {
+        "id": "949de8c0b8163b94",
+        "type": "link call",
+        "z": "d236e94b5b5e26b5",
+        "g": "b815a218a8d7f47c",
+        "name": "",
+        "links": [
+            "1764f8568a80ddbd"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2950,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e5e2e21cafe1cffe",
+        "type": "debug",
+        "z": "d236e94b5b5e26b5",
+        "g": "b815a218a8d7f47c",
+        "name": "debug 34",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2680,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "d8b2af9e84dc3341",
+        "type": "function",
+        "z": "d236e94b5b5e26b5",
+        "g": "b815a218a8d7f47c",
+        "name": "get company",
+        "func": "msg.collection = \"campaigns\";\n\nmsg.payload = {\n    \"deleted\": false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2510,
+        "y": 1120,
+        "wires": [
+            [
+                "d1fa2693dd3f92d6"
+            ]
+        ]
+    },
+    {
+        "id": "d1fa2693dd3f92d6",
+        "type": "link call",
+        "z": "d236e94b5b5e26b5",
+        "name": "find",
+        "links": [
+            "346e518816416d1d"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2650,
+        "y": 1120,
+        "wires": [
+            [
+                "1ad706b9ead34588",
+                "e5e2e21cafe1cffe"
+            ]
+        ]
     },
     {
         "id": "d6a6e89feb5bf44b",
@@ -4866,7 +5067,7 @@
         "type": "function",
         "z": "7a3ac458dbd749ca",
         "name": "campaigns",
-        "func": "msg.payload = [\n    {\n        _id: \"1\",\n        code: \"PN0001265\",\n        name: \"GSK\",\n        date: \"Ouverte Sep 12, 2023\",\n        globalDiscount: \"-30%\",\n        objectif: 50,\n        remainingTime: \"3J 2H 55Min\",\n        participants: [\"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-1.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-2.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-3.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-4.png\"],\n        img: \"https://ubos.tech/wp-content/uploads/2023/07/medilane_campaigns-photo-1.png\"\n    }\n]\nreturn msg;",
+        "func": "msg.payload = [\n    {\n        _id: \"1\",\n        code: \"PN0001265\",\n        name: \"GSK\",\n        date: \"Opened Sep 12, 2023\",\n        globalDiscount: \"-30%\",\n        objectif: 50,\n        remainingTime: \"3D 2H 55Min\",\n        participants: [\"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-1.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-2.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-3.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-4.png\"],\n        img: \"https://ubos.tech/wp-content/uploads/2023/07/medilane_campaigns-photo-1.png\"\n    }\n]\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4932,7 +5133,7 @@
         "type": "function",
         "z": "7a3ac458dbd749ca",
         "name": "campaigns",
-        "func": "msg.payload = [\n    {\n        _id: \"2\",\n        code: \"PN0001221\",\n        name: \"Bayer\",\n        date: \"Ouverte Sep 10, 2023\",\n        globalDiscount: \"-35%\",\n        objectif: 70,\n        remainingTime: \"5J 1H 02Min\",\n        participants: [\"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-1.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-2.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-3.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-4.png\"],\n        img: \"https://ubos.tech/wp-content/uploads/2023/07/medilane_campaigns-photo-1.png\"\n    },\n    {\n        _id: \"3\",\n        code: \"PN0001290\",\n        name: \"La Rosée\",\n        date: \"Ouverte Mai 28, 2023\",\n        globalDiscount: \"-20%\",\n        objectif: 23,\n        remainingTime: \"6J 7H 35Min\",\n        participants: [\"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-1.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-2.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-3.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-4.png\"],\n        img: \"https://ubos.tech/wp-content/uploads/2023/07/medilane_campaigns-photo-1.png\"\n    }\n]\nreturn msg;",
+        "func": "msg.payload = [\n    {\n        _id: \"2\",\n        code: \"PN0001221\",\n        name: \"Bayer\",\n        date: \"Opened Sep 10, 2023\",\n        globalDiscount: \"-35%\",\n        objectif: 70,\n        remainingTime: \"5J 1H 02Min\",\n        participants: [\"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-1.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-2.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-3.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-4.png\"],\n        img: \"https://ubos.tech/wp-content/uploads/2023/07/medilane_campaigns-photo-1.png\"\n    },\n    {\n        _id: \"3\",\n        code: \"PN0001290\",\n        name: \"La Rosée\",\n        date: \"Opened Mai 28, 2023\",\n        globalDiscount: \"-20%\",\n        objectif: 23,\n        remainingTime: \"6J 7H 35Min\",\n        participants: [\"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-1.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-2.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-3.png\", \"https://ubos.tech/wp-content/uploads/2023/07/medilane_participants-photo-4.png\"],\n        img: \"https://ubos.tech/wp-content/uploads/2023/07/medilane_campaigns-photo-1.png\"\n    }\n]\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
