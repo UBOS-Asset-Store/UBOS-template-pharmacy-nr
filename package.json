@@ -2,7 +2,13 @@
     "name": "UBOS-template-pharmacy-nr",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-node-mongodb": "0.2.5",
+        "nodemailer": "6.9.9",
+        "node-red-contrib-loop-processing": "0.5.1",
+        "node-red-contrib-auth": "0.1.7",
+        "node-red-contrib-bcrypt": "0.1.6"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",

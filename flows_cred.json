@@ -1,1 +1,6 @@
-{}
+{
+    "61baa7f31d9fdc66": {
+        "user": "${MEDILANEDB-MONGO-USER-NAME}",
+        "password": "${MEDILANEDB-MONGO-PASSWORD}"
+    }
+}
