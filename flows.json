@@ -81,7 +81,7 @@
         ],
         "x": 14,
         "y": 519,
-        "w": 932,
+        "w": 922,
         "h": 122
     },
     {
@@ -307,9 +307,9 @@
             "ae293692fead8475",
             "732470b6749e6a6e"
         ],
-        "x": 744,
+        "x": 754,
         "y": 1419,
-        "w": 802,
+        "w": 792,
         "h": 882
     },
     {
@@ -416,9 +416,7 @@
             "39d23b9302b7a054"
         ],
         "x": 34,
-        "y": 239,
-        "w": 1072,
-        "h": 662
+        "y": 239
     },
     {
         "id": "5fa550d7584c7b05",
@@ -442,9 +440,7 @@
             "2ed006a00e70fa75"
         ],
         "x": 1114,
-        "y": 599,
-        "w": 592,
-        "h": 242
+        "y": 599
     },
     {
         "id": "d98e404f743d8188",
@@ -479,9 +475,7 @@
             "95c4b4199cd73bfd"
         ],
         "x": 34,
-        "y": 939,
-        "w": 1372,
-        "h": 262
+        "y": 939
     },
     {
         "id": "61baa7f31d9fdc66",
@@ -2151,7 +2145,7 @@
         "z": "d236e94b5b5e26b5",
         "g": "b6caf5a4e7dfa59a",
         "name": "check user permissions",
-        "func": "const pageName = msg.check.page_id.replace('%20', ' ');\n\nconst parentPage = msg.menu.map((el) => el.label).includes(pageName);\nconst childPage = msg.menu.filter((e) => e.children.length > 0).flatMap((el) => el.children).map((elem) => elem.label).includes(pageName);\n\nif (parentPage || childPage) {\n\n    msg.statusCode = 200;\n    msg.payload = {\n        auth: \"Success\",\n        code: 200,\n        user: {\n            \"menu\": msg.menu,\n            \"permission\": msg.permissions,\n            \"translation\": msg.payload.translation[0],\n            \"info\": msg.user,\n            // \"attributes\": msg.user.user.attributes\n        }\n    }\n\n} else {\n\n    msg.payload = {\n        auth: \"Unautorizate\",\n        code: 401,\n        login_id: msg.menu[0].value + `?pageName=${msg.menu[0].value}`,\n        app_id: msg.check.app_id\n    }\n\n}\nreturn msg;",
+        "func": "const pageName = msg.check.page_id.replace('%20', ' ');\n\nconst parentPage = msg.menu.map((el) => el.label).includes(pageName);\nconst childPage = msg.menu.filter((e) => e.children.length > 0).flatMap((el) => el.children).map((elem) => elem.label).includes(pageName);\n\nif (parentPage || childPage || 'OrderList' || 'CampaignDetails') {\n\n    msg.statusCode = 200;\n    msg.payload = {\n        auth: \"Success\",\n        code: 200,\n        user: {\n            \"menu\": msg.menu,\n            \"permission\": msg.permissions,\n            \"translation\": msg.payload.translation[0],\n            \"info\": msg.user,\n            // \"attributes\": msg.user.user.attributes\n        }\n    }\n\n} else {\n\n    msg.payload = {\n        auth: \"Unautorizate\",\n        code: 401,\n        login_id: msg.menu[0].value + `?pageName=${msg.menu[0].value}`,\n        app_id: msg.check.app_id\n    }\n\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
